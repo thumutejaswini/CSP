@@ -1,0 +1,10 @@
+<tml>
+<body>
+<h1 style="text-align:center">Naturopathy</h1>
+<p>Naturopathy is defined as the science of dealing with illness or treating the body using natural ways of healing and alternative medicine. It is one of the popular courses after 12th Science that provides personalised healthcare according tos the particular disease.</p>
+<h3>Naturopathy Course Details</h3>
+<img src="ne.png">
+<h3>Job Profiles and Top Recruiters</h3>
+<img src="ne1.png">
+</body>
+</html>

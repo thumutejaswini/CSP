@@ -1,0 +1,18 @@
+<html>
+<head>
+<body>
+<h2 style="text-align:center">MBBS (Bachelor of Medicine and a Bachelor of Surgery)</h2>
+<h3>What is MBBS?</h3>
+<p>MBBS or Bachelor of Medicine and Bachelor of Surgery is also described as BMBS, which is an abbreviation of the Latin word, Medicinae Baccalaureus Baccalaureus Chirurgiae. Bachelor of Medicine and Bachelor of Surgery or MBBS is an undergraduate degree programme in the field of Medicine and Surgery.</p>
+<h3>Highlights - MBBS</h3>
+<img src="mbbs.png">
+<h3>Careers Opportunities after MBBS</h3>
+<ul>
+<li>Doctor</li>
+<li>Medical Officers</li>
+<li>Surgeon</li>
+<li>General Physician</li>
+<li>Paediatrician</li>
+</ul>
+</body>
+</html>

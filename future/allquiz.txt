@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.one {
+  background-color: black;
+  width: 100px;
+  height:200px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+.two {
+  background-color: black;
+  width: 100px;
+  height:200px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+  
+}
+.three {
+  background-color: black;
+  width: 100px;
+  height:200px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+  
+}
+
+p{
+  color:white;
+  font-size:12px;
+  font-weight:bold;
+  text-decoration:none;
+}
+</style>
+</head>
+<body>
+<div align:"left">
+<h1>math</h1>
+<div class="one">
+<pre>
+<a href="mathquiz1.html"><p>quiz1</p></a>
+<a href=""><p>quiz2</p></a>
+<a href=""><p>quiz3</p></a>
+<a href=""><p>quiz4</p></a>
+<a href=""><p>quiz5</p></a>
+</pre>
+</div></div>
+<div align:"center">
+<h1>physics</h1>
+<div class="two">
+<pre>
+<a href=""><p>quiz1</p></a>
+<a href=""><p>quiz2</p></a>
+<a href=""><p>quiz3</p></a>
+<a href=""><p>quiz4</p></a>
+<a href=""><p>quiz5</p></a>
+</pre>
+</div></div>
+<div align:"center">
+<h1>Chemistry</h1>
+<div class="three">
+<pre>
+<a href=""><p>quiz1</p></a>
+<a href=""><p>quiz2</p></a>
+<a href=""><p>quiz3</p></a>
+<a href=""><p>quiz4</p></a>
+<a href=""><p>quiz5</p></a>
+</pre>
+</div></div>
+
+
+
+</body>
+</html>
+
+
+

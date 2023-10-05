@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+     </style>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style2.css">
+     <link rel="stylesheet" href="style3.css">
+     </head>
+<body>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="fa1.jpeg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="fa2.jpeg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="fa3.png" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+    <h1 style="color:red;">Fashion Technology</h1> 
+
+<p>Fashion Technology is a garment making vocational trade. The duration of trade is one year with two semesters of six months each. During the course, students are taught of various aspects like theoretical knowledge and practical skills, which are applied in clothing construction, industrial sewing, flat patternmaking, designing, textiles, fashion sketching, grading, marking and cutting and computerized grading and marking. The trade is an important one as fashion is very crucial is life; everybody likes it. Therefore it opens so many career opportunities in various fields for students. There are so many ITIs and other higher institutes offering courses in this subject.
+</p>
+<h2 style="color:red;">Fashion Technology Trade Eligibility</h2>
+<p>Students should be passed in 10th class examination or its equivalent from a recognised school board.</p>
+<h3 style="color:red;">Fashion Technology Trade ITIs</h3>
+   <p style="color:green;">Fashion coordinator</p>
+    <p style="color:green;">Art & Fashion Teacher</p>
+    <p style="color:green;">Assistant Manager</p>
+    <p style="color:green;">Assistant Manager product Development</p>
+    <p style="color:green;">Product Coordinator</p>
+    <p style="color:green;">Creative Graphics Designer</p>
+  <h4 style="color:red;">Fashion Technology Trade Syllabus</h4>
+
+  <table style="width:100%">
+    <tr>
+        <th>Sr.No.</th>
+        <th>Subjects of Study</th>
+      <tr>
+          <th></th>
+          <th>Trade practical</th>
+          <th>Trade theory</th>
+      </tr>
+    <tr>
+      <td>1</td>
+      <td>Trade knowledg/td>
+      <td>Familiarization with the Institute</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Trade knowledg</td>
+      <td>Female Sketch (10.5” &12.5”) front,back,3/4 &side</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Female Sketch (10.5” &12.5”) front,back,3/4 &side</td>
+        <td>Computer Knowledge </td>
+      </tr>
+     <tr>
+        <td>4</td>
+        <td>Developing Embroidery samples</td>
+        <td>History of Fashion, Basic Embroidery Stitches</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Developing Elements of design on sheets Lines</td>
+        <td>Element design</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Developing Elements of design on sheets.</td>
+        <td>Principles of design</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Colour</td>
+        <td>colour</td>
+      </tr>
+      <tr> <td>8</td>
+        <td>Draping</td>
+        <td>Draping</td>
+    </tr>
+  </table>
+ <h4 style="color:red;">Fashion Technology Trade ITIs</h4> 
+ <p>Directorate General of Employment and Training (DGE&T), New Delhi</p>
+ <P>I.T.I. Phondaghat, Sindhudurg</P>
+ <p>Narayan Industrial Training Center, Bareilly</p>
+ <p>S.E.A. Industrial Training Center, Bangalore</p>
+<h5 style="color:red;">Fashion Technology Trade Required Skills</h5>
+<p>Students should be able to understand the minimum essential mental, physical and behavioural skills necessary.</p>
+<p>They also possess skills like problem solving for design-related needs; take measurements and do conversions and do basic math calculations.</p>
+<p>They should be able to translate design sketches into flat patterns; create and assess designs on computer and replicate teacher-demonstrated procedures.</p>
+<p>Students should be able to communicate effectively to gather and convey information.</p>
+<h6 style="color:red;">How is Fashion Technology Trade Beneficial?<h6>
+    <p>Students after passing the trade have bright further study options in form of Diploma/Bachelor Degree courses for enhancing their overall qualification.</p>
+    <P>After passing trade, students are able to select appropriate fabrics and notions suitable to the garment's design; and drape, draft or manipulate flat patterns to create accurate garment patterns.</P>
+    <P>The Trade trains students about managing the production of manufacturers’ or designers’ products to correct quantity and quality specifications.</P>
+</body>
+</html>

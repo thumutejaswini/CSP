@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+     </style>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style2.css">
+     <link rel="stylesheet" href="style3.css">
+     </head>
+<body>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="pho1.webp" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="pho2.webp" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="pho3.jpeg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+    <h1 style="color:red;">Digital Photography</h1> 
+
+<p>
+    In this article, we will have an in-depth analysis of Digital Photography course offered by ITIs. It is a job oriented vocational trade. This article covers topics such as trade details, duration, syllabus, admission process and career prospects.
+</p>
+<p>ITIs (Industrial Training Institutes) in India are offering some of the best vocational courses out there. Digital Photography trade/course is one such job oriented vocational course. For govt jobs, please check – list of government jobs after passing ITI.
+    Digital Photography ITI course is also sometimes known simply as ITI Photography/Photographer course.
+</p>
+<h2 style="color:red;">Digital Photography course trains students in areas such as –</h2>
+<p>The main aim of this trade is to provide vocational training to candidates and turn them into skilled and qualified photographers! The course thus aims at developing a skilled work-force of qualified photographers in India</p>
+<h3 style="color:red;"></h3>
+   <p style="color:green;">Introduction to digital photography</p>
+    <p style="color:green;">Familiarization of various types of cameras</p>
+    <p style="color:green;">Setting up ideal lighting conditions</p>
+    <p style="color:green;">Operating various types of cameras</p>
+    <p style="color:green;">Editing images using computer applications</p>
+    <p style="color:green;">Printing photographs</P>  
+  <h4 style="color:red;">Important trade practical subjects –</h4>
+  <p>Familiarization with the institute</p>
+  <p>Handling different types of cameras</p>
+  <p>Using different types of lights</p>
+  <p>Indoor and outdoor photography</p>
+  <p>Practice photography using various lighting techniques</p>
+  <p>Digital image editing using software</p> 
+  <p>Digital image editing using software</p>
+  <p>Handling video cameras</p>
+  <p>Handling HDDs, DVDs and CDs</p>
+  <p>Using microphones</p>
+  <p>Use of reflectors, skimmers and various lighting setups</p>
+  <p>Production planning practical</p>
+  <p>Shooting and editing of short documentary, interview, music video </p>
+  <p>Industrial visit</p>
+  <p>Project Work</p>
+  <h4 style="color:red;">Digital Photography scope & jobs</h4> 
+ <p>ITI Digital Photography course passed candidates have diverse job opportunities available in front of them. Self employment is a great opportunity available in front of them. </p>
+ <p>Some of the well known private sector recruiters are –</p>
+ <p>photography studios</p>
+ <p>Newspapers</p>
+ <p>Magzines</p>
+ <p>Publishing firms</p>
+ <p>Libraries</p>
+ <p>Event management companies</p>
+ <p>Art galleries</p>
+ <p>Hospitals</p>
+ <p>Advertisement agencies</p>
+ <p>MNCs</p>
+ <p>Film and TV production houses</p>
+<h5 style="color:red;">JOB opportunities</h5>
+<p>Photographer</p>
+<p>Fashion Photographer</p>
+<p>Assistant Photographer</p>
+<p>Sports Photographer</p>
+<p>Photojournalist</p>
+<p>Forensic Journalist</p>
+<p>Corporate Photographer</p>
+<p>Videographer</p>
+<p>Photo Editor</p>
+<p>Printing Specialist</p>
+<h6 style="color:red;">Self-employment opportunities include –</h6>
+<p>Starting own photo studio</p>
+<P>Starting own photography equipment shop</P>
+<P>Becoming freelance photographer (weddings, events, for magazines etc)</P>
+</body>
+</html>

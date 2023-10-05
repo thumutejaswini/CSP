@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+     </style>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style2.css">
+     <link rel="stylesheet" href="style3.css">
+     </head>
+<body>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="to1.jpeg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="to2.jpeg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="to3.jpeg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+    <h1 style="color:red;">Tool&Die Maker</h1> 
+
+<p>
+  Tool & Die Maker (Dies & Moulds) is a mechanical die making vocational trade. Trade duration is two years with four semesters of six months each. During class teaching, students are introduced to topics like how to conduct test runs with completed tools or dies; make adjustments as necessary; cut, shape, and trim blanks or blocks to specified lengths or shapes; file, grind, shim, and adjust different parts to properly fit them together; fit and assemble parts to make, repair, or modify dies, jigs, gauges, and tools; inspect finished dies for smoothness, contour conformity, and defects; lift, position, and secure machined parts on surface plates or worktables and so on. The trade is an important and career orienting in nature that provides many opportunities after its successful passing.
+</p>
+<p>
+  Students should be passed in 10th class with Science and Mathematics under 10+2 system of education or its equivalent from a recognized school board in the country.
+</p>
+<h2 style="color:red;">Tool & Die Maker (Dies & Moulds) Trade Job Types</h2>
+   <p style="color:green;">Gauge Maker</p>
+    <p style="color:green;">Mould Maker</p>
+    <p style="color:green;">Tool&Die Maker</p>
+    <p style="color:green;">Die Fitter</p>
+    <p style="color:green;">Tool crib Attendant</p>
+  <h4 style="color:red;">Tool&Die maker Syllabus</h4>
+
+  <table style="width:100%">
+    <tr>
+      <th>sr.no.</th>
+      <th>Subjects of Study</th>
+      </tr>
+      <tr>
+      <th>Trade Practical</th>
+      <th>Trade theory</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Importance of trade training, List of tools & Machinery used in the trade. Health & Safety: Introduction to safety equipments and their uses. Introduction of first aid, operation of Electrical mains. Occupational Safety & Health Importance of housekeeping & good shop floor practices.</td>
+      <td>Importance of safety and general precautions observed in the in the industry/shop floor. All necessary guidance to be provided to the new comers to become familiar with the working of Industrial Training Institute system including stores procedures. Soft Skills: its importance and Job area after completion of training.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Bench Work: Identification of tools & equipments as per desired specifications for marking & sawing.</td>
+      <td>Bench vice construction –types, uses, care and maintenance. Hacksaw frames – its types, hacksaw blade – description, material, specifications and uses.</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Identification of tools & equipments as per desired specifications for drilling and tapping. Making rectangular parallel block and drilling practice for through holes, blind holes, Counter drilling, Counter sinking, chain drilling and taping.</td>
+        <td>Drilling  machine  description  –  its  types, Selection  of  cutting  speed  for  different materials. Calculation of rotation per minute (rpm), drilling time for drilling. Description of twist drill, counter boring tool, counter sinking tool.</td>
+      </tr>
+     <tr>
+        <td>4</td>
+        <td>Practice of step fitting having curvature/radius fitting</td>
+        <td>Vernier  caliper,  micrometer  (inside  & outside),  height  gauge,  bevel  protector  –working principle – construction, graduations, calculation of least count, readings-uses and care</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Practice of Chipping & Scraping</td>
+        <td>Study of tools used in chipping and scraping. Introduction between Metal and Non Metal, properties of metal, Classification of metals and its applications.</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Prepare three piece Assembly fitting with Filing flat and radius, drilling, countersinking, counter boring and tapping.</td>
+        <td>Manufacturing process of ferrous metals and its classification, uses of wrought iron, cast iron and steel.</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Dressing of grinding wheels. Grinding of chisel, punch in Pedestal Grinder. Practice of twist drill grinding. Practice of single point turning tools grinding.      </td>
+        <td>Description of pedestal grinder, procedure for mounting the grinding wheel and its application. Introduction to dressing and its importance.</td>
+      </tr>
+  </table>
+ <h4 style="color:red;">Tool & Die Maker (Dies & Moulds) Trade ITIs</h4> 
+ <p>Industrial Training Institute (I.T.I.), Ramanagara</p>
+ <p>Industrial Training Institute (I.T.I.), Thiruvananthapuram</p>
+ <P>Industrial Training Institute, Kolhapur</P>
+ <P>Don Bosco Self Employment Research Institute, Howrah</P>
+<h5 style="color:red;">Tool & Die Maker (Dies & Moulds) Trade Required Skills</h5>
+<p>Students should be able to read and interpret drawings and specifications of tools, dies, prototypes or models along with calculating dimensions and tolerances.</p>
+<p>They should be able to operate a variety of machine tools to cut, turn, mill, plane, bore, grind and shape the piece being worked on to very specific dimensions</p>
+<P>They should be hard worker as they have to spot any flaws in the finish or operation of machined parts and taking corrective action; work independently or as a member of a team on a variety of different projects and tasks are other traits needed by them.</P>
+<h6 style="color:red;">How is Tool & Die Maker (Dies & Moulds) Trade Beneficial?</h6>
+<P>After passing trade, students can work on dismantle and assemble of various jigs, fixtures and press tools and test.</P>
+<P>They can work in structural fabrication like bridges, roof structures, building and construction; automobile and allied industries; service industries like road transportation and Railways.</P>
+<P>They can also work with ship building and repair; infrastructure and defense organizations; and in public sector industries like BHEL, BEML, NTPC, etc.</P>
+<h7 style="color:red;">Tool & Die Maker (Dies & Moulds) Trade Job Types
+  </h7>
+<p>Gauge Maker</p>
+<P>Mould Maker</P>
+<P>Tool&Die Maker</P>
+<P>Die Fitter</P>
+<P>Tool crib Attendant</P>
+<h8 style="color:red;">Advance Courses in Tool & Die Maker (Dies & Moulds) Trade:-</h8>
+<P>Advance Diploma in Tool and Die Making</P>
+<P>Diploma in Tool and Die Engineering</P>
+</body>
+</html>

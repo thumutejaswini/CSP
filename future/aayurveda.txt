@@ -1,0 +1,23 @@
+<h1 style="text-align:center">Aayurveda course</h1>
+<p>Bachelor of Ayurvedic Medicine and Surgery . BAMS is a five-and-a-half-year degree program covering the study of the integrated traditional ayurvedic system and modern medicine. The course lasts for 4.5 years of the academic sessions followed by one year of compulsory internship.</p>
+<h3>Careers in Ayurveda</h3>
+<ul>
+<li>Clinical practice</li>
+             
+<li>Academic</li>
+<Li>Management and Administration</li>
+<li>Drug Manufacturing</li>
+<li>Research</li>
+</ul>
+<h3>Job Profiles and Top Recruiters</h3>
+<ol>
+<li>Therapist</li>
+<li>Pharmacist</li>
+<li>Ayurvedic doctor</li>
+<li>Assistant claim manager healthLecturer
+</li>
+<li>Lecturer</li>
+</ol>
+</body>
+</html>
+

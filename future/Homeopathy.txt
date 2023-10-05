@@ -1,0 +1,15 @@
+<html>
+<body>
+<h1 style="text-align:center">Homeopathy</h1>
+<p>Bachelor of Homeopathic Medicine and Surgery. BHMS is an academic undergraduate degree course that covers homoeopathic system medical knowledge. The curriculum has a period of five and a half years which involves four and half years of research followed by one year of internship.</p>
+<h3>Job Profiles and Top Recruiters</h3>
+<img src="homo.png">
+<h3>Top Recruiters For Homeopathy</h3>
+<ol>
+<li>Medanta Hospitals</li>
+<Li> Religare Health Insurance Company Ltd.</li>
+<li> Indian Council of Medical Research</li>
+<li>  Sun Pharmaceuticals Industries Ltd.</li>
+</ol>
+</body>
+</html>

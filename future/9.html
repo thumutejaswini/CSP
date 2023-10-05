@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+     </style>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style2.css">
+     <link rel="stylesheet" href="style3.css">
+     </head>
+<body>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="to2.webp" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="po1.webp" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="po3.jpeg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+    <h1 style="color:red;">Artistic Programming</h1> 
+
+<p>Plan your artistic activities, contracting and scheduling of artists with our module for Artistic Programming. Create a single source of truth for forthcoming programme details and build an artistic archive of the music, theatre, opera, dance, film, literature and visual arts at your venue or festival.</p>
+<p>Store individual artists, performing groups and their member</p>
+<P>View the performance history and planned performances at your organisation</P>
+<P>Create a contract on the arrangement for each artist on the programme</P>
+<h2 style="color:red;">Artist Schedules</h2>
+<h2>Artists</h2>
+<p>Record which rehearsals and performances for which each artist is required/not required.</p>
+<P>Included in Itinerary if Guest Scheduling plugin active</P>
+<h3 style="color:red;">Job Scope</h3>
+   <p style="color:green;">Event Programmer</p>
+    <p style="color:green;">AI system Programmer</p>
+    <p style="color:green;">AI pragrammer</p>
+    <p style="color:green;">Tools Programmer</p>
+    <p style="color:green;">Event Programmer</p>
+    <p style="color:green;">Gameplay Programmer</p>
+  <h4 style="color:red;">Fun Facts
+</h4>
+<P>The Artistic Programming team plans and oversees over 2,000 performances annually across nine stages.  </P>
+<P>The Department takes charge of planning across different artforms, including seasonal producing, curating, and presentation of artists and events in the following areas: Classical, New Music, Comedy, Contemporary Music, Dance, Hip Hop Culture, International Programming, Jazz, Social Impact, and Theater.</P>
+<P>The Artistic Programming team also manage the Mark Twain Prize and Kennedy Center Honors.</P>
+
+  
+ <h4 style="color:red;">TEAM MISSION</h4> 
+ <p>The Artistic Programming department develops a distinctive and powerful voice for the performing arts by keeping the Center's mission at the forefront of their creative programming--by placing artists from across the globe at the center of each art form and performance. The department strives to invoke inspiring and meaningful audience experiences through the performances they present, hoping to invite discussion that further collaboration, inspiration, and understanding across cultures and people around the world.</p>
+ 
+<h5 style="color:red;">Life in Artistic Programming</h5>
+<p>The Artistic Planning and Programming Department conceives and executes the Kennedy Center’s artistic vision through a wide and diverse range of curation, producing, and programming. Included within the Programming team are Theater, Social Impact, International Programming, Dance, Jazz, Fortas Chamber Music, Hip Hop Culture, Classical New Music, Contemporary Music, Comedy, and Broadcast Programming, as well as the Kennedy Center’s Production team and the Opera House Orchestra. The team celebrates diverse perspectives from a wide range of cultures and communities by presenting programs that offer meaningful entry points for new and diverse audiences and artists alike. As a leader in the performing arts, the Kennedy Center’s programmers actively seek outside creative partners to explore projects and partnerships that will advance the role of the Center and the arts locally, nationally, and internationally.</p>
+</body>
+</html>
